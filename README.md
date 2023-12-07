@@ -1,6 +1,34 @@
 <h1 align="center">
-  Alan Galavis' personal website
+  Alan Galavis' personal web portfolio
 </h1>
+
+This is my personal web portfolio, where I'll showcase the skills I've acquired and the projects I've made as a software engineering student. Feel free to open a pull request in case you have any suggestions to enhance this project.
+
+## Technologies used
+
+- [Gatsby](https://www.gatsbyjs.com/): React-based open source framework.
+- [Tailwind CSS](https://tailwindcss.com/): CSS framework.
+
+## Getting started
+
+1. Open the command prompt and clone the repository:
+```
+git clone https://github.com/alanegd/alangalavis-portfolio
+```
+
+2. Navigate to the project directory.
+
+3. Run the following command to install the necessary dependencies listed in the package.json file:
+  ``` 
+  npm install 
+  ```
+
+4. Run the Gatsby Development Server with:
+```
+gatsby develop
+```
+
+5. Open your web browser and go to `http://localhost:8000/ ` to view the Gatsby site.
 
 ## Project structure
 
@@ -20,28 +48,6 @@
         # Contains the stylesheets of the application
 ```
 
-
-
-1.  **Create a Gatsby site.**
-
-    Use the Gatsby CLI to create a new site, specifying the minimal starter.
-
-    ```shell
-    # create a new Gatsby site using the minimal starter
-    npm init gatsby
-    ```
-
-2.  **Start developing.**
-
-    Navigate into your new site’s directory and start it up.
-
-    ```shell
-    cd my-gatsby-site/
-    npm run develop
-    ```
-
-3.  **Open the code and start customizing!**
-
-    Your site is now running at http://localhost:8000!
-
-    Edit `src/pages/index.js` to see your site update in real-time!
+## Contact
+* GitHub: [https://github.com/alanegd](https://github.com/alanegd)
+* LinkedIn: [https://www.linkedin.com/in/alan-galavis/](https://www.linkedin.com/in/alan-galavis/)
