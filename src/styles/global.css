@@ -2,3 +2,12 @@
 @tailwind components;
 @tailwind utilities;
 @import '@fortawesome/fontawesome-svg-core/styles.css';
+@import url('https://fonts.googleapis.com/css?family=IBM+Plex+Sans');
+
+:root {
+    --font-primary: 'IBM Plex Sans';
+}
+
+* {
+    font-family: var(--font-primary);
+}
