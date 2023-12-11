@@ -1,12 +1,12 @@
 <?xml version="1.0" encoding="utf-8"?>
-<svg viewBox="0 0 500 500" xmlns="http://www.w3.org/2000/svg" xmlns:bx="https://boxy-svg.com">
+<svg viewBox="0 0 500 430" xmlns="http://www.w3.org/2000/svg" xmlns:bx="https://boxy-svg.com">
   <defs>
     <bx:guide x="227.677" y="134.811" angle="-90"/>
     <clipPath id="clip0_9_1469">
       <rect width="580" height="580" fill="white"/>
     </clipPath>
   </defs>
-  <g clip-path="url(#clip0_9_1469)" transform="matrix(0.863041, 0, 0, 0.863041, -0.602151, -0.434733)" style="">
+  <g clip-path="url(#clip0_9_1469)" transform="matrix(0.863041, 0, 0, 0.863041, -0.51181, -70.577156)" style="">
     <path d="M21.5698 101.526H50.9323" stroke="#277BA2" stroke-width="5.852"/>
     <path d="M56.8042 101.526H115.532" stroke="white" stroke-width="5.852"/>
     <path d="M121.404 101.526H180.131" stroke="#FD7658" stroke-width="5.852"/>
