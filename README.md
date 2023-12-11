@@ -1,3 +1,7 @@
+<p align="center">
+  <img alt="SmartStock" src="src/images/coding.svg" width="250" />
+</p>
+
 <h1 align="center">
   Alan Galavis' personal web portfolio
 </h1>
