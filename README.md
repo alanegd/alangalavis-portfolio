@@ -1,5 +1,5 @@
 <p align="center">
-  <img alt="SmartStock" src="src/images/coding.svg" width="250" />
+  <img alt="Alan Galavis" src="src/images/coding.svg" width="250" />
 </p>
 
 <h1 align="center">

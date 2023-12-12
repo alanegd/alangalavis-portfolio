@@ -2,12 +2,22 @@
 @tailwind components;
 @tailwind utilities;
 @import '@fortawesome/fontawesome-svg-core/styles.css';
-@import url('https://fonts.googleapis.com/css?family=IBM+Plex+Sans');
+@import url('https://fonts.googleapis.com/css?family=Roboto+Mono');
+@import url('https://fonts.googleapis.com/css?family=Inter');
 
 :root {
-    --font-primary: 'IBM Plex Sans';
+    --font-primary: 'Roboto Mono';
+    --font-secondary: 'Inter';
+}
+
+body {
+    background-color: #0F0F0F;
 }
 
 * {
     font-family: var(--font-primary);
+}
+
+h1 {
+    font-family: var(--font-secondary);
 }

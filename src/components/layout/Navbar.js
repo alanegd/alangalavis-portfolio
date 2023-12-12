@@ -29,11 +29,11 @@ export default function Navbar() {
 
   return (
     <div className={`${styles.navbar} ${scrolling ? styles.scrolled : ''}`}>
-      <nav class="flex flex-wrap items-center justify-between align-middle p-4">
-        <div class="container mx-auto flex flex-wrap items-center justify-between">
+      <nav class="flex flex-wrap items-center justify-between align-middle p-4 mb-8">
+        <div class="container mx-auto flex flex-wrap items-center justify-between text-white">
           <div class="w-full relative flex justify-between md:w-auto px-4 md:static md:block md:justify-start">
-            <Link class="font-bold flex py-2 whitespace-nowrap items-center">
-              <h1 class="text-xl">Alan Galavis</h1>
+            <Link class="font-semibold flex py-2 whitespace-nowrap items-center">
+              <h1 class="text-xl">alanegd</h1>
             </Link>
             
             <button class="md:hidden" onClick={toggleMenu}>
@@ -45,12 +45,12 @@ export default function Navbar() {
             <ul className="flex flex-col md:flex-row list-none md:ml-auto gap-x-4 lg:gap-x-8">
               <li>
                 <Link to="/">
-                    <p class="hover:text-[#ec5f4d]">About</p>
+                    <p class="hover:text-[#ec5f4d]">Acerca de mí</p>
                 </Link>
               </li>
               <li>
                 <Link to="/">
-                    <p class="hover:text-[#ec5f4d]">Projects</p>
+                    <p class="hover:text-[#ec5f4d]">Proyectos</p>
                 </Link>
               </li>
             </ul>
