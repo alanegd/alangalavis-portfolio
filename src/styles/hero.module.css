@@ -1,3 +1,10 @@
 .hero {
     background: linear-gradient(135deg, #32445F -5.08%, #2F3C55 50%, #262535 105.08%);
 }
+
+.hero img {
+    max-width: none;
+    width: 35rem;
+    margin-bottom: -100px;
+    margin-left: -25px;
+  }

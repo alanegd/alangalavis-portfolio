@@ -1,5 +1,7 @@
 <p align="center">
-  <img alt="Alan Galavis" src="src/images/coding.svg" width="250" />
+  <a href="https://alanegd.netlify.app/">
+    <img alt="Alan Galavis" src="src/images/coding.svg" width="250" />
+  </a>
 </p>
 
 <h1 align="center">
@@ -51,6 +53,10 @@ gatsby develop
     └── styles
         # Contains the stylesheets of the application
 ```
+
+## Deployment Status
+
+[![Netlify Status](https://api.netlify.com/api/v1/badges/718cbd2e-c131-437b-b9e4-e55114c86812/deploy-status)](https://app.netlify.com/sites/alanegd/deploys)
 
 ## Contact
 * GitHub: [https://github.com/alanegd](https://github.com/alanegd)

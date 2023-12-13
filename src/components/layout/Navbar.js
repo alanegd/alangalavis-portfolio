@@ -45,12 +45,12 @@ export default function Navbar() {
             <ul className="flex flex-col md:flex-row list-none md:ml-auto gap-x-4 lg:gap-x-8">
               <li>
                 <Link to="/">
-                    <p class="hover:text-[#ec5f4d]">Acerca de mí</p>
+                    <p class="hover:text-[#EBB073]">Acerca de mí</p>
                 </Link>
               </li>
               <li>
                 <Link to="/">
-                    <p class="hover:text-[#ec5f4d]">Proyectos</p>
+                    <p class="hover:text-[#EBB073]">Proyectos</p>
                 </Link>
               </li>
             </ul>
