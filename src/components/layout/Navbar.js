@@ -1,34 +1,18 @@
 import { Link } from 'gatsby'
 import * as styles from '../../styles/navbar.module.css'
-import React, { useState, useEffect } from 'react'
+import React, { useState } from 'react'
 import { FontAwesomeIcon } from '@fortawesome/react-fontawesome'
 import { faBars, faClose } from '@fortawesome/free-solid-svg-icons'
 
 export default function Navbar() {
   const [showMenu, setShowMenu] = useState(false);
-  const [scrolling, setScrolling] = useState(false);
-
+  
   const toggleMenu = () => {
     setShowMenu(!showMenu);
   };
 
-  const handleScroll = () => {
-    if (window.scrollY >= window.innerHeight) {
-      setScrolling(true);
-    } else {
-      setScrolling(false);
-    }
-  };
-
-  useEffect(() => {
-    window.addEventListener('scroll', handleScroll);
-    return () => {
-      window.removeEventListener('scroll', handleScroll);
-    };
-  }, []);
-
   return (
-    <div className={`${styles.navbar} ${scrolling ? styles.scrolled : ''}`}>
+    <div className={`${styles.navbar}`}>
       <nav class="flex flex-wrap items-center justify-between align-middle p-4 mb-8">
         <div class="container mx-auto flex flex-wrap items-center justify-between text-white">
           <div class="w-full relative flex justify-between md:w-auto px-4 md:static md:block md:justify-start">
@@ -45,12 +29,12 @@ export default function Navbar() {
             <ul className="flex flex-col md:flex-row list-none md:ml-auto gap-x-4 lg:gap-x-8">
               <li>
                 <Link to="/">
-                    <p class="hover:text-[#EBB073]">Acerca de mí</p>
+                    <p class="hover:text-[#EBB073] mt-3 md:mt-auto">Acerca de mí</p>
                 </Link>
               </li>
               <li>
                 <Link to="/">
-                    <p class="hover:text-[#EBB073]">Proyectos</p>
+                    <p class="hover:text-[#EBB073] mt-3 md:mt-auto">Proyectos</p>
                 </Link>
               </li>
             </ul>
