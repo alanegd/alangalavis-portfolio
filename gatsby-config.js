@@ -15,7 +15,8 @@ module.exports = {
       options: {
         name: `alanegd`,
         start_url: `/`,
-        display: `minimal-ui`
+        display: `minimal-ui`,
+        icon: `src/images/coding.svg`
       }
     }
   ]

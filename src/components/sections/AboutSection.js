@@ -4,7 +4,7 @@ import aboutImage from '../../images/about.png';
 
 export default function AboutSection() {
   return (
-    <section className={`${styles.about} md:h-screen mt-5 p-10 md:px-20 items-center md:flex justify-center`}>
+    <section className={`${styles.about}  mt-5 p-10 md:px-20 items-center md:flex justify-center`}>
       <div>
         <div class="flex flex-col mb-8 text-center md:text-start items-center md:items-start">
           <h1 class="mb-4 font-semibold text-3xl md:text-4xl text-[#EBB073] uppercase">Acerca de mí.</h1>
@@ -21,7 +21,7 @@ export default function AboutSection() {
 
           <div class="md:w-1/4 flex flex-col items-center">
             <div class="pt-2 rounded-t bg-[#32445F]">
-              <img src={aboutImage}/>
+              <img src={aboutImage} alt="alanegd"/>
             </div>
             <a class="py-3 w-full font-semibold text-white text-center bg-[#ec5f4d] hover:bg-[#ff7c67] rounded-b cursor-pointer" href="/" download>Descargar CV</a>
           </div>
