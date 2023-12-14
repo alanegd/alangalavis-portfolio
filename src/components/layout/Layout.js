@@ -6,9 +6,9 @@ import '../../styles/global.css';
 
 export default function Layout({ children }) {
   return (
-    <div className="max-w-screen-lg mx-auto "> {/* Añadí max-w-screen-lg y margin: auto */}
+    <div >
       <Navbar />
-      <div>{children}</div>
+      <div className="max-w-screen-lg mx-auto">{children}</div>
       <Footer />
     </div>
   );

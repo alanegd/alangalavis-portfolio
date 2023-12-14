@@ -13,10 +13,10 @@ export default function Navbar() {
 
   return (
     <div className={`${styles.navbar}`}>
-      <nav class="flex flex-wrap items-center justify-between align-middle p-4 mb-8">
-        <div class="container mx-auto flex flex-wrap items-center justify-between text-white">
-          <div class="w-full relative flex justify-between md:w-auto px-4 md:static md:block md:justify-start">
-            <Link class="font-semibold flex py-2 whitespace-nowrap items-center">
+      <nav class="flex flex-wrap items-center justify-between align-middle p-4 ">
+        <div class="container mx-auto py-2 flex flex-wrap items-center justify-between text-white">
+          <div class="w-full relative flex justify-between md:w-auto px-4 md:px-0 md:static md:block md:justify-start">
+            <Link class="font-semibold flex whitespace-nowrap items-center">
               <h1 class="text-xl">alanegd</h1>
             </Link>
             

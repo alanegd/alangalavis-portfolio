@@ -3,8 +3,20 @@
  */
 module.exports = {
   siteMetadata: {
-    title: `Alan Galavis`,
+    title: `alanegd`,
+    siteTitle: `alanegd`,
+    description: `Alan Galavis personal portfolio`,
     siteUrl: `https://www.yourdomain.tld`
   },
-  plugins: ["gatsby-plugin-postcss"]
+  plugins: [
+    "gatsby-plugin-postcss",
+    {
+      resolve: `gatsby-plugin-manifest`,
+      options: {
+        name: `alanegd`,
+        start_url: `/`,
+        display: `minimal-ui`
+      }
+    }
+  ]
 };

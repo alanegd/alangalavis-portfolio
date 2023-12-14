@@ -1,5 +1,8 @@
 .hero {
     background: linear-gradient(135deg, #32445F -5.08%, #2F3C55 50%, #262535 105.08%);
+    @media (max-width: 991px) {
+        margin-top: 76px;
+    }
 }
 
 .hero img {
@@ -7,4 +10,27 @@
     width: 35rem;
     margin-bottom: -100px;
     margin-left: -125px;
+}
+
+.fade-enter {
+    opacity: 0.01;
+    transform: translateY(20px);
   }
+  
+  .fade-enter.fade-enter-active {
+    opacity: 1;
+    transform: translateY(0);
+    transition: opacity 300ms ease-in, transform 300ms ease-in;
+  }
+  
+  .fade-exit {
+    opacity: 1;
+    transform: translateY(0);
+  }
+  
+  .fade-exit.fade-exit-active {
+    opacity: 0.01;
+    transform: translateY(20px);
+    transition: opacity 300ms ease-in, transform 300ms ease-in;
+  }
+  
