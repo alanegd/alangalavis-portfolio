@@ -8,16 +8,29 @@
 :root {
     --font-primary: 'Roboto Mono';
     --font-secondary: 'Inter';
+    --primary-color: #2F3C55;
+    --background-color: #0F0F0F;
 }
 
 body {
-    background-color: #0F0F0F;
+    background-color: var(--background-color);
 }
 
 * {
     font-family: var(--font-primary);
+    scrollbar-gutter: stable;
 }
 
 h1 {
     font-family: var(--font-secondary);
+}
+
+*::-webkit-scrollbar {
+    width: 5px;
+    background: var(--background-color);
+    border-radius: 10px;
+}
+
+*::-webkit-scrollbar-thumb {
+    background-color: #484848;
 }
