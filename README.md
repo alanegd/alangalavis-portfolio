@@ -54,7 +54,7 @@ gatsby develop
         # Contains the stylesheets of the application
 ```
 
-## Deployment Status
+## Deployment status
 
 [![Netlify Status](https://api.netlify.com/api/v1/badges/718cbd2e-c131-437b-b9e4-e55114c86812/deploy-status)](https://app.netlify.com/sites/alanegd/deploys)
 
