@@ -11,13 +11,17 @@ export default function HeroSection() {
       <div className={`${styles.hero} md:px-20 py-10 text-center text-white md:text-left items-center relative`}>
         <div className="md:flex items-center relative">
           <div className="md:w-1/2 flex flex-col justify-center">
-            <h1 className="text-5xl md:text-8xl font-semibold md:font-normal py-4">Alan <br className="hidden md:block" /> Galavis</h1>
-            <p className="py-4 md:hidden">Ingeniero de software.</p>
+            <h1 className="text-5xl md:text-8xl font-semibold md:font-normal py-4">
+              Alan <br className="hidden md:block" /> Galavis
+            </h1>
+            <p className="py-4 md:hidden">
+              Ingeniero de software.
+            </p>
             <p className="py-4 hidden md:block">
-              <span className="text-[#EBB073]">Ingeniero de software</span> especializado en proyectos 
-              <span className="text-[#EBB073]"> full stack</span> y <span className="text-[#EBB073]">frameworks ágiles</span>.
+              Ingeniero de software especializado en proyectos full stack y frameworks ágiles.
             </p>
           </div>
+          
           <div className="hidden md:block md:w-1/2 absolute top-1/2 right-0 transform -translate-y-1/2">
             <img src={heroImageSVG} alt="alanegd"/>
           </div>
