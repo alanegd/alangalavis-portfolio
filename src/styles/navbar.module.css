@@ -5,12 +5,3 @@
     background-color: #0F0F0F;
     z-index: 100;
 }
-
-.navbar.scrolled {
-    transition: background-color 0.15s ease;
-    background: rgb(31 41 55);
-}
-
-.navbar .activeLink {
-    text-decoration: underline;
-}
