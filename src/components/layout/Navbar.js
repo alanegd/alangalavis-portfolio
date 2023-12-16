@@ -27,7 +27,7 @@ export default function Navbar() {
           </div>
 
           <div className={`md:flex md:flex-grow items-center dropdown ${showMenu ? 'open' : ''}`}>
-            <ul className="flex flex-col md:flex-row list-none md:ml-auto gap-x-4 lg:gap-x-8">
+            <ul className="flex flex-col md:flex-row list-none md:ml-auto gap-x-4 md:gap-x-16">
               <li>
                 <Link to="#about">
                   <p className="hover:text-[#EBB073] mt-3 md:mt-auto">Acerca de mí</p>
