@@ -1,18 +1,19 @@
+/* Dropdown abierto */
 .dropdown.open {
-  max-height: 200px;
   visibility: visible;
   opacity: 1;
   width: 100%;
   text-align: end;
-  transition: max-height 0.3s ease-in-out, opacity 0.3s ease-in-out;
+  max-height: 200px;
+  transition: opacity 0.3s ease-in-out, max-height 0.3s ease-in-out;
 }
 
+/* Dropdown cerrado en pantallas pequeñas */
 @media (max-width: 768px) {
   .dropdown:not(.open) {
-    max-height: 0;
     visibility: hidden;
     opacity: 0;
-
-    transition: max-height 0.3s ease-in-out, opacity 0.3s ease-in-out;
+    max-height: 0;
+    transition: opacity 0.3s ease-in-out, max-height 0.3s ease-in-out;
   }
 }

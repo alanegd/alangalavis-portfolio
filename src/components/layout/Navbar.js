@@ -17,7 +17,7 @@ export default function Navbar() {
       <nav className="flex flex-wrap items-center justify-between align-middle p-4">
         <div className="max-w-screen-lg container mx-auto py-2 px-4 flex flex-wrap items-center justify-between text-white">
           <div className="w-full relative flex justify-between md:w-auto md:px-0 md:static md:block md:justify-start">
-            <Link className="font-semibold flex whitespace-nowrap items-center">
+            <Link className="font-semibold flex whitespace-nowrap items-center" to="/">
               <h1 className="text-xl">alanegd</h1>
             </Link>
 
@@ -29,7 +29,7 @@ export default function Navbar() {
           <div className={`md:flex md:flex-grow items-center dropdown ${showMenu ? 'open' : ''}`}>
             <ul className="flex flex-col md:flex-row list-none md:ml-auto gap-x-4 lg:gap-x-8">
               <li>
-                <Link to="/">
+                <Link to="#about">
                   <p className="hover:text-[#EBB073] mt-3 md:mt-auto">Acerca de mí</p>
                 </Link>
               </li>

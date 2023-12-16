@@ -7,7 +7,7 @@ import { faEnvelope } from '@fortawesome/free-solid-svg-icons';
 
 export default function HeroSection() {
   return (
-    <section className="md:h-screen items-center md:flex justify-center">
+    <section className="md:my-16 items-center md:flex justify-center">
       <div className={`${styles.hero} md:px-20 py-10 text-center text-white md:text-left items-center relative`}>
         <div className="md:flex items-center relative">
           <div className="md:w-1/2 flex flex-col justify-center">
