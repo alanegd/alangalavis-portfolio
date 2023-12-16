@@ -16,7 +16,7 @@ module.exports = {
         name: `alanegd`,
         start_url: `/`,
         display: `minimal-ui`,
-        icon: `src/images/coding.svg`
+        icon: `src/images/favicon.svg`
       }
     }
   ]

@@ -1,5 +1,6 @@
 .hero {
     background: linear-gradient(135deg, #32445F -5.08%, #2F3C55 50%, #262535 105.08%);
+    margin-top: 76px;
     /*
     @media (max-width: 991px) {
         margin-top: 76px;
