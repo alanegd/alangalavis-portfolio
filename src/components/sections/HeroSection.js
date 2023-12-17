@@ -33,13 +33,13 @@ export default function HeroSection() {
         <hr className="w-32 h-1.5 bg-[#EBB073] border-0 hidden md:block"></hr>
         
         <div className="flex py-4 items-center justify-center md:justify-start">
-          <a href="https://www.linkedin.com/in/alan-galavis/" className="text-3xl text-white hover:text-[#EBB073]" alt="LinkedIn">
+          <a href="https://www.linkedin.com/in/alan-galavis/" className="text-3xl text-white hover:text-[#EBB073]" target="_blank" rel="noopener noreferrer" alt="LinkedIn">
             <FontAwesomeIcon icon={faLinkedin} />
           </a>
-          <a href="https://github.com/alanegd" className="text-3xl text-white hover:text-[#EBB073] ms-5" alt="GitHub">
+          <a href="https://github.com/alanegd" className="text-3xl text-white hover:text-[#EBB073] ms-5" target="_blank" rel="noopener noreferrer" alt="GitHub">
             <FontAwesomeIcon icon={faGithub} />
           </a>
-          <a href="mailto:alangalavisjobs@gmail.com" className="text-3xl text-white hover:text-[#EBB073] ms-5" alt="Instagram">
+          <a href="mailto:alangalavisjobs@gmail.com" className="text-3xl text-white hover:text-[#EBB073] ms-5" target="_blank" rel="noopener noreferrer" alt="Instagram">
             <FontAwesomeIcon icon={faEnvelope} />
           </a>
         </div>

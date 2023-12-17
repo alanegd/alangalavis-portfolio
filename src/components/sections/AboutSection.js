@@ -25,7 +25,7 @@ export default function AboutSection() {
             <div class="pt-2 bg-[#32445F]">
               <img src={aboutImage} alt="alanegd"/>
             </div>
-            <a class="py-3 w-full text-white text-center bg-[#ec5f4d] hover:bg-[#ff7c67] cursor-pointer" href="/" download>Descargar CV</a>
+            <a class="py-3 w-full text-white text-center bg-[#ec5f4d] hover:bg-[#ff7c67] cursor-pointer" href="/CV - Alan Galavis.pdf" target="_blank" rel="noopener noreferrer">Descargar CV</a>
           </div>
         </div>
       </div>
