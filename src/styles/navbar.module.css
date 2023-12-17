@@ -3,5 +3,29 @@
     width: 100%;
     top: 0;
     background-color: var(--background-color);
+    backdrop-filter: blur(8px);
     z-index: 100;
 }
+
+.shadow {
+    box-shadow: 0 4px 4px 0 rgba(0, 0, 0, 0.25);
+}
+
+.dropdown.open {
+    visibility: visible;
+    opacity: 1;
+    width: 100%;
+    text-align: end;
+    max-height: 200px;
+    transition: opacity 0.3s ease-in-out, max-height 0.3s ease-in-out;
+  }
+  
+  @media (max-width: 768px) {
+    .dropdown:not(.open) {
+      visibility: hidden;
+      opacity: 0;
+      max-height: 0;
+      transition: opacity 0.3s ease-in-out, max-height 0.3s ease-in-out;
+    }
+  }
+  

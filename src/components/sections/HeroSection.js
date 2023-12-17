@@ -1,15 +1,18 @@
-import React from 'react';
+import React, { useEffect } from 'react';
 import * as styles from '../../styles/hero.module.css';
 import heroImageSVG from '../../images/hero.svg';
 import { FontAwesomeIcon } from '@fortawesome/react-fontawesome';
 import { faLinkedin, faGithub } from '@fortawesome/free-brands-svg-icons';
 import { faEnvelope } from '@fortawesome/free-solid-svg-icons';
+import 'aos/dist/aos.css';
+
 
 export default function HeroSection() {
   return (
     <section className="md:my-16 items-center md:flex justify-center overflow-x-clip">
-      <div className={`${styles.hero} md:px-20 py-10 text-center text-white md:text-left items-center relative`}>
-        <div className="md:flex items-center relative">
+    <div
+      className={`${styles.hero} md:px-20 py-10 text-center text-white md:text-left items-center relative`}>
+      <div className="md:flex items-center relative">
           <div className="md:w-1/2 flex flex-col justify-center">
             <h1 className="text-5xl md:text-8xl font-semibold md:font-normal py-4">
               Alan <br className="hidden md:block" /> Galavis

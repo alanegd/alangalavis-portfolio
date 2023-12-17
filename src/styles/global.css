@@ -2,14 +2,14 @@
 @tailwind components;
 @tailwind utilities;
 @import '@fortawesome/fontawesome-svg-core/styles.css';
-@import url('https://fonts.googleapis.com/css?family=Roboto+Mono');
+@import url('https://fonts.googleapis.com/css?family=Montserrat');
 @import url('https://fonts.googleapis.com/css?family=Inter');
 
 :root {
-    --font-primary: 'Roboto Mono';
+    --font-primary: 'Montserrat';
     --font-secondary: 'Inter';
     --primary-color: #2F3C55;
-    --background-color: #15151a;
+    --background-color: #202124;
 }
 
 body {
@@ -25,12 +25,22 @@ h1 {
     font-family: var(--font-secondary);
 }
 
+p {
+    letter-spacing: 0.05rem;
+    word-spacing: 0.22rem;
+}
+
 *::-webkit-scrollbar {
-    width: 7px;
+    width: 8px;
     background: var(--background-color);
-    border-radius: 10px;
+
+}
+
+body::-webkit-scrollbar-track {
+    background-color: #1b1c1d;
 }
 
 *::-webkit-scrollbar-thumb {
+    border-radius: 10px;
     background-color: #484848;
 }
