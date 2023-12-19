@@ -10,7 +10,7 @@ export default function ProjectsSection() {
       <div>
         <div className="flex flex-col md:flex-row justify-center mb-8 text-center items-center">
           <hr className="w-full h-0.5 bg-[#E25A27] border-0 mb-2 hidden md:block" />
-          <h2 className="md:mx-10 mb-2 font-semibold text-4xl md:text-4xl text-[#172432] uppercase whitespace-nowrap">
+          <h2 className="md:mx-10 mb-2 font-regular text-4xl md:text-4xl text-[#172432] uppercase whitespace-nowrap">
             Proyectos
           </h2>
           <hr className="w-full h-0.5 bg-[#E25A27] border-0 mb-2" />
