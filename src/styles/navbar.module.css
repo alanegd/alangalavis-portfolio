@@ -2,7 +2,7 @@
     position: fixed;
     width: 100%;
     top: 0;
-    background-color: var(--background-color);
+    background-color: #0F3B3C;
     backdrop-filter: blur(8px);
     z-index: 100;
 }

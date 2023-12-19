@@ -2,14 +2,16 @@
 @tailwind components;
 @tailwind utilities;
 @import '@fortawesome/fontawesome-svg-core/styles.css';
-@import url('https://fonts.googleapis.com/css?family=Montserrat');
-@import url('https://fonts.googleapis.com/css?family=Inter');
+@import url('https://fonts.googleapis.com/css?family=Rubik');
+@import url('https://fonts.googleapis.com/css?family=Strait');
+@import url('https://fonts.googleapis.com/css?family=DM+Serif+Display');
 
 :root {
-    --font-primary: 'Montserrat';
-    --font-secondary: 'Inter';
+    --font-primary: 'Rubik';
+    --font-secondary: 'DM Serif Display';
+    --font-tertiary: 'Strait';
     --primary-color: #2F3C55;
-    --background-color: #202124;
+    --background-color: #D9D4C1;
 }
 
 body {
@@ -23,6 +25,10 @@ body {
 
 h1 {
     font-family: var(--font-secondary);
+}
+
+h2 {
+    font-family: var(--font-tertiary);
 }
 
 p {

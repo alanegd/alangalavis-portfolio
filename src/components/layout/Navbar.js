@@ -33,7 +33,7 @@ export default function Navbar() {
         <div className="max-w-screen-lg container mx-auto py-2 px-4 flex flex-wrap items-center justify-between text-white">
           <div className="w-full relative flex justify-between md:w-auto md:px-0 md:static md:block md:justify-start">
             <Link className="font-semibold flex whitespace-nowrap items-center" to="/">
-              <h1 className="text-xl">alanegd</h1>
+              <h2 className="text-xl">alanegd</h2>
             </Link>
 
             <button className="md:hidden text-xl" onClick={toggleMenu}>
@@ -45,12 +45,12 @@ export default function Navbar() {
             <ul className="flex flex-col md:flex-row list-none md:ml-auto gap-x-4 md:gap-x-16">
               <li>
                 <Link to="#about">
-                  <p className="hover:text-[#EBB073] mt-3 md:mt-auto">Acerca de mí</p>
+                  <h2 className="hover:text-[#EBB073] mt-3 md:mt-auto">Acerca de mí</h2>
                 </Link>
               </li>
               <li>
                 <Link to="#projects">
-                  <p className="hover:text-[#EBB073] mt-3 md:mt-auto">Proyectos</p>
+                  <h2 className="hover:text-[#EBB073] mt-3 md:mt-auto">Proyectos</h2>
                 </Link>
               </li>
             </ul>

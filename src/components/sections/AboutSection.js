@@ -1,4 +1,4 @@
-import React, { useEffect } from 'react'
+import React from 'react'
 import * as styles from '../../styles/about.module.css';
 import aboutImage from '../../images/about.png';
 
@@ -8,11 +8,11 @@ export default function AboutSection() {
     <section id="about" className={`${styles.about} mt-5 p-10 md:px-20 items-center md:flex`}>
       <div>
         <div class="flex flex-col mb-8 text-center md:text-start items-center md:items-start">
-          <h1 class="mb-4 font-semibold text-3xl md:text-4xl text-[#EBB073] uppercase">Acerca de mí.</h1>
-          <hr class="w-3/4 md:w-32 h-1.5 bg-[#EBB073] border-0"/>
+          <h2 class="mb-2 font-semibold text-3xl md:text-4xl text-[#172432] uppercase">Acerca de mí.</h2>
+          <hr class="w-3/4 md:w-32 h-0.5 bg-[#FF7757] border-0"/>
         </div>
 
-        <div class="flex flex-col md:flex-row gap-8 text-white">
+        <div class="flex flex-col md:flex-row gap-8 text-[#172432]">
           <div class="md:w-3/2 mb-8 md:mr-4 ">
             <p>Me llamo Alan Galavis, soy estudiante del cuarto año de la carrera de Ingeniería de Software.</p>
             <br/>
@@ -22,7 +22,7 @@ export default function AboutSection() {
           </div>
 
           <div class="md:min-w-3/2 flex flex-col items-center">
-            <div class="pt-2 bg-[#32445F]">
+            <div class="pt-2 bg-[#194546]">
               <img src={aboutImage} alt="alanegd"/>
             </div>
             <a class="py-3 w-full text-white text-center bg-[#ec5f4d] hover:bg-[#ff7c67] cursor-pointer" href="/CV - Alan Galavis.pdf" target="_blank" rel="noopener noreferrer">Descargar CV</a>
