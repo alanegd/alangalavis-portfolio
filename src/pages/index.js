@@ -7,7 +7,6 @@ import ProjectsSection from "../components/sections/ProjectsSection"
 export default function IndexPage() {
   return (
    <Layout>
-    <HeroSection/>
     <AboutSection/>
     <ProjectsSection/>
    </Layout>
