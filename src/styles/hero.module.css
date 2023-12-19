@@ -1,11 +1,10 @@
 .hero {
     background: #4F7D73;
     margin-top: 76px;
-    /*
-    @media (max-width: 991px) {
-        margin-top: 76px;
+
+    @media (max-width: 767px) {
+        background: #22312E;
     }
-    */
 }
 
 .hero img {
