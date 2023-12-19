@@ -19,7 +19,7 @@ export default function ProjectsSection() {
         <div className="flex flex-col md:flex-row text-[#172432]">
           <div className="md:w-1/2 mb-8 md:mr-4">
             <h2 className="mb-2 font-semibold text-4xl md:text-3xl text-[#172432]">Greenhouse</h2>
-            <p className="text-sm">Angular, Bootstrap, JavaScript, MySQL, Spring, Tailwind, TypeScript</p>
+            <p className="text-sm">Angular, Bootstrap, Java, JavaScript, MySQL, Spring, Tailwind, TypeScript</p>
           </div>
 
           <div className="md:w-1/2">

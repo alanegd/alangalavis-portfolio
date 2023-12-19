@@ -8,13 +8,13 @@ export default function AboutSection() {
       <div>
         <div className="flex flex-col md:flex-row justify-center mb-8 text-center items-center">
           <hr className="w-full h-0.5 bg-[#E25A27] border-0 mb-2 hidden md:block" />
-          <h2 className="md:mx-10 mb-2 font-regular text-4xl md:text-4xl text-[#172432] uppercase whitespace-nowrap">
+          <h2 className="md:mx-10 mb-2 text-4xl md:text-4xl text-[#172432] uppercase whitespace-nowrap">
             Acerca de mí
           </h2>
           <hr className="w-full h-0.5 bg-[#E25A27] border-0 mb-2" />
         </div>
 
-        <div className="flex flex-col md:flex-row gap-8 text-[#172432]">
+        <div className="flex flex-col md:flex-row justify-between gap-8 text-[#172432]">
           <div className="md:w-3/5 mb-8 md:mr-4">
             <p>
               Me llamo Alan Galavis, soy estudiante del cuarto año de la carrera de Ingeniería de Software.
