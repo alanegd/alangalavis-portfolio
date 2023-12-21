@@ -34,9 +34,10 @@ export default function Project({ project }) {
           </ul>
 
           {siteLink && (
-            <a className="text-[#E25A27] underline" href={siteLink}>
-              <FontAwesomeIcon icon={faExternalLink} style={{ marginRight: '8px', width: '16px' }} />Ver demo
-            </a>
+            <span className="text-[#E25A27] underline">
+                <FontAwesomeIcon icon={faExternalLink} style={{ marginRight: '8px', width: '16px' }} />
+                <a href={siteLink}>Ver demo</a>
+            </span>
           )}
         </div>
       </div>
