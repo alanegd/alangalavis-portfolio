@@ -4,6 +4,7 @@
       "problem": "Las fábricas de champiñones en Perú registran el estado y progreso de sus cultivos en hojas de papel. Este método es arcaico, vulnerable y difícil de mantener.",
       "solution": "Aplicación web de una sola página que impulsa la digitalización en fábricas de champiñones. Con Greenhouse, los trabajadores pueden registrar en tiempo real las actividades realizadas, y los administradores pueden supervisar remotamente el estado de los cultivos.",
       "stack": ["Angular", "Bootstrap", "Java", "JavaScript", "MySQL", "Spring", "Tailwind", "TypeScript"],
+      "image": "/greenhouse.png",
       "siteLink": "https://integradis-opensource.github.io/LandingPage/",
       "repositories": [
         "Repositorio front-end|https://github.com/Integradis-OpenSource/Greenhouse_FrontEnd",
@@ -15,6 +16,7 @@
       "problem": "Las concesionarias de autos en Perú necesitan de una plataforma que permita generar con facilidad y transparencia un plan de pagos de crédito vehicular para los potenciales clientes.",
       "solution": "Aplicación web de una sola página que incluye un simulador de compra y venta de vehículos, desde el cual las concesionarias podrán generar un plan de pagos por el método francés, vencido y ordinario.",
       "stack": ["Vue", "JavaScript", "MySQL", ".NET", "Tailwind"],
+      "image": "/creditcar.png",
       "siteLink": "",
       "repositories": [
         "Repositorio front-end|https://github.com/upc-pre-202302-si642-si82-creditcar/CreditCar",

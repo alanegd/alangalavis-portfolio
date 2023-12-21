@@ -36,7 +36,7 @@ export default function AboutSection() {
               <img src={aboutImage} alt="alanegd" />
             </div>
             <a
-              className="py-3 w-full text-white text-center bg-[#E25A27] hover:bg-[#FA652E] cursor-pointer shadow-md"
+              className="py-3 w-full text-white text-center bg-[#E25A27] hover:bg-[#FA652E] cursor-pointer drop-shadow-md"
               href="/CV - Alan Galavis.pdf"
               target="_blank"
               rel="noopener noreferrer"
