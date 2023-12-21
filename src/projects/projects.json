@@ -12,7 +12,7 @@
     },
     {
       "title": "CreditCar",
-      "problem": "Las concesionarias en Perú necesitan de una plataforma que permita generar con facilidad y transparencia un plan de pagos de crédito vehicular para los potenciales clientes.",
+      "problem": "Las concesionarias de autos en Perú necesitan de una plataforma que permita generar con facilidad y transparencia un plan de pagos de crédito vehicular para los potenciales clientes.",
       "solution": "Aplicación web de una sola página que incluye un simulador de compra y venta de vehículos, desde el cual las concesionarias podrán generar un plan de pagos por el método francés, vencido y ordinario.",
       "stack": ["Vue", "JavaScript", "MySQL", ".NET", "Tailwind"],
       "siteLink": "",

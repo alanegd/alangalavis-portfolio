@@ -20,7 +20,7 @@ export default function Project({ project }) {
 
         <hr className="w-full h-0.5 bg-black border-0 mb-6" />
 
-        <div className="flex justify-between">
+        <div className="flex flex-col-reverse md:flex-row gap-3 justify-between">
           <ul>
             {repositories.map((repo, index) => {
               const [displayText, repoLink] = repo.split('|');
