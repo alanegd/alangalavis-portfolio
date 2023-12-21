@@ -1,7 +1,7 @@
 import React from 'react';
 import { FontAwesomeIcon } from '@fortawesome/react-fontawesome';
 import { faExternalLink } from '@fortawesome/free-solid-svg-icons';
-import Image from './Image';
+import Image from '../../infrastructure/graphql/Image.js';
 
 export default function Project({ project }) {
   const { title, problem, solution, stack, image, siteLink, repositories } = project;

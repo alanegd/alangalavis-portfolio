@@ -48,8 +48,12 @@ gatsby develop
     |       # Components that represent distinct sections of content on a page
     ├── images
     |   # Contains the images used in different parts of the application
+    ├── infrastructure
+    |   # Separates the infrastructure logic from the rest of the application
     ├── pages
     |   # Contains the React components that correspond to different pages
+    ├── projects
+    |   # Contains the .json files related to the projects of the portfolio
     └── styles
         # Contains the stylesheets of the application
 ```
