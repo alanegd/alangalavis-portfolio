@@ -1,7 +1,12 @@
 import React from 'react';
 import * as styles from '../../styles/projects.module.css';
+import Project from '../layout/Project';
+import projectsData from '../../projects/projects.json';
+
 
 export default function ProjectsSection() {
+  const projects = projectsData;
+
   return (
     <section
       id="projects"
@@ -16,27 +21,14 @@ export default function ProjectsSection() {
           <hr className="w-full h-0.5 bg-[#E25A27] border-0 mb-2" />
         </div>
 
-        <div className="flex flex-col md:flex-row text-[#172432]">
-          <div className="md:w-1/2 mb-8 md:mr-4">
-            <h2 className="mb-2 font-semibold text-4xl md:text-3xl text-[#172432]">Greenhouse</h2>
-            <p className="text-sm">Angular, Bootstrap, Java, JavaScript, MySQL, Spring, Tailwind, TypeScript</p>
+        <div className="text-[#172432]">
+          {projects.map((project, index) => (
+          <div key={index} className="mb-24">
+            <Project project={project} />
           </div>
-
-          <div className="md:w-1/2">
-            <p>
-              <span className="font-bold">Problema identificado:</span> Las fábricas de champiñones en Perú registran el
-              estado y progreso de sus cultivos en hojas de papel. Este método es arcaico, vulnerable y difícil de
-              mantener.
-            </p>
-            <br />
-            <p>
-              <span className="font-bold">Solución:</span> Aplicación web de una sola página que impulsa la
-              digitalización en fábricas de champiñones. Con Greenhouse, los trabajadores pueden registrar en tiempo
-              real las actividades realizadas, y los administradores pueden supervisar remotamente el estado de los
-              cultivos.
-            </p>
-          </div>
+          ))}
         </div>
+
       </div>
     </section>
   );

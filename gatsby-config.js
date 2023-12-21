@@ -6,10 +6,19 @@ module.exports = {
     title: `alanegd`,
     siteTitle: `alanegd`,
     description: `Alan Galavis personal portfolio`,
-    siteUrl: `https://www.yourdomain.tld`
+    siteUrl: `https://alanegd.netlify.app/`
   },
   plugins: [
     "gatsby-plugin-postcss",
+    "gatsby-transformer-remark",
+    "gatsby-transformer-json",
+    {
+      resolve: `gatsby-source-filesystem`,
+      options: {
+        name: `projects`,
+        path: `${__dirname}/src/projects/`,
+      },
+    },
     {
       resolve: `gatsby-plugin-manifest`,
       options: {
