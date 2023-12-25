@@ -17,7 +17,7 @@ export default function AboutSection() {
         <div className="flex flex-col md:flex-row justify-between gap-8 text-[#172432]">
           <div className="md:w-3/5 mb-8 md:mr-4">
             <p>
-              Me llamo Alan Galavis, soy estudiante del cuarto año de la carrera de Ingeniería de Software.
+              Me llamo Alan Galavis, soy estudiante del cuarto año de la carrera de Ingeniería de Software en la Universidad Peruana de Ciencias Aplicadas.
             </p>
             <br />
             <p>

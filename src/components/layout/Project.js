@@ -32,8 +32,7 @@ export default function Project({ project }) {
                 const [displayText, repoLink] = repo.split('|');
                 return repoLink ? (
                   <li className="mb-3 text-[#E25A27] hover:text-[#FA652E] underline" key={index}>
-                    
-                    <a href={repoLink}><span><FontAwesomeIcon icon={faExternalLink} style={{ marginRight: '8px', width: '14px' }} />{displayText} </span></a>
+                    <a href={repoLink} target="_blank" rel="noopener noreferrer"><span><FontAwesomeIcon icon={faExternalLink} style={{ marginRight: '8px', width: '14px' }} />{displayText} </span></a>
                   </li>
                 ) : null;
               })}
@@ -41,7 +40,7 @@ export default function Project({ project }) {
 
             {siteLink && (
               <span className="text-[#E25A27] hover:text-[#FA652E] underline">
-                <a href={siteLink}><span><FontAwesomeIcon icon={faExternalLink} style={{ marginRight: '8px', width: '14px' }} />Ver demo</span></a>
+                <a href={siteLink} target="_blank" rel="noopener noreferrer"><span><FontAwesomeIcon icon={faExternalLink} style={{ marginRight: '8px', width: '14px' }} />Ver demo</span></a>
               </span>
             )}
           </div>
