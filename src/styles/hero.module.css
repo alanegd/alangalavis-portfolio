@@ -1,5 +1,5 @@
 .hero {
-    background: #4F7D73;
+    background: url(../images/texture.png), #4F7D73 repeat;
     margin-top: 76px;
 
     @media (max-width: 767px) {
@@ -12,4 +12,10 @@
     width: 35rem;
     margin-bottom: -85px;
     margin-left: -150px;
+}
+
+.hero h1 {
+    @media (min-width: 767px) {
+        text-shadow: 2px 3px 0 #2A534F;
+    }
 }
