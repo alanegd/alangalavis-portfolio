@@ -23,7 +23,7 @@ export default function ProjectsSection() {
 
         <div className="text-[#172432]">
           {projects.map((project, index) => (
-          <div key={index} className="mb-24">
+          <div key={index} className="mb-16">
             <Project project={project} />
           </div>
           ))}
