@@ -22,6 +22,17 @@
         "Repositorio front-end|https://github.com/upc-pre-202302-si642-si82-creditcar/CreditCar",
         "Repositorio back-end|https://github.com/upc-pre-202302-si642-si82-creditcar/CreditCar.API"
       ]
+    },
+    {
+      "title": "Movie Recommendation System",
+      "problem": "Las plataformas de streaming enfrentan problemas de precisión y transparencia en sus sistemas de recomendación debido al uso predominante de filtros colaborativos basados en reseñas generadas por otros usuarios. Esto resulta en recomendaciones que no se alinean con los gustos y preferencias individuales de los usuarios.",
+      "solution": "Sistema de recomendación de películas basado en el algoritmo de búsqueda por profundidad limitada en grafos no dirigidos. Los usuarios pueden personalizar sus preferencias mediante la selección de parámetros específicos, mejorando la precisión de las recomendaciones y brindando una experiencia más satisfactoria.",
+      "stack": ["Flask", "Pandas", "Python"],
+      "image": "/movie-recommendation-system.png",
+      "siteLink": "",
+      "repositories": [
+        "Repositorio|https://github.com/alanegd/movie-recommendation-system"
+      ]
     }
   ]
   
