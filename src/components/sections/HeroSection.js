@@ -20,7 +20,7 @@ export default function HeroSection() {
         <div data-aos="fade-up" data-aos-duration="1000">
           <div className="md:flex items-center relative">
             <div className="md:w-1/2 flex flex-col justify-center">
-              <h1 className="py-4 text-5xl md:text-8xl text-[#D9D4C1] italic">
+              <h1 className="py-4 text-5xl md:text-8xl text-[#F3EED8] italic">
                 Alan <br className="hidden md:block" /> Galavis
               </h1>
               <p className="py-4 md:hidden">
