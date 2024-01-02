@@ -25,8 +25,8 @@
     },
     {
       "title": "Movie Recommendation System",
-      "problem": "Las plataformas de streaming carecen de precisión y transparencia en sus sistemas de recomendación debido al uso predominante de filtros colaborativos. Esto resulta en recomendaciones que no se alinean con los gustos y preferencias individuales de los usuarios.",
-      "solution": "Sistema de recomendación de películas basado en el algoritmo de búsqueda por profundidad limitada en grafos no dirigidos. Los usuarios pueden personalizar sus preferencias mediante la selección de parámetros específicos, mejorando la precisión de las recomendaciones y brindando una experiencia más satisfactoria.",
+      "problem": "Las plataformas de streaming carecen de precisión y transparencia en sus sistemas de recomendación debido al uso predominante de filtros colaborativos. Esto resulta en recomendaciones que no se alinean con los gustos individuales de los usuarios.",
+      "solution": "Sistema de recomendación de películas basado en el algoritmo de búsqueda por profundidad limitada en grafos no dirigidos. Los usuarios pueden personalizar sus preferencias mediante la selección de parámetros específicos, lo cual mejora la precisión de las recomendaciones y brinda una experiencia más satisfactoria.",
       "stack": ["Flask", "Pandas", "Python"],
       "image": "/movie-recommendation-system.png",
       "siteLink": "",
