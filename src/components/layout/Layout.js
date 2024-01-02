@@ -18,7 +18,7 @@ export default function Layout({ children }) {
     <div >
       <Navbar />
       <HeroSection/>
-      <div className="max-w-[1055px] mx-auto" data-aos="fade-up"  data-aos-duration="1000">{children}</div>
+      <div data-aos="fade-up"  data-aos-duration="1000">{children}</div>
       <Footer />
     </div>
   );

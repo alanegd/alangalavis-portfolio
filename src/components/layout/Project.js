@@ -31,17 +31,17 @@ export default function Project({ project }) {
               {repositories.map((repo, index) => {
                 const [displayText, repoLink] = repo.split('|');
                 return repoLink ? (
-                  <li className="mb-3 text-[#E25A27] hover:text-[#FA652E] underline" key={index}>
-                    <a href={repoLink} target="_blank" rel="noopener noreferrer"><span><FontAwesomeIcon icon={faExternalLink} style={{ marginRight: '8px', width: '14px' }} />{displayText} </span></a>
+                  <li className="mb-3" key={index}>
+                    <a className="text-[#E25A27] hover:text-[#172432] underline" href={repoLink} target="_blank" rel="noopener noreferrer"><FontAwesomeIcon icon={faExternalLink} style={{ marginRight: '8px', width: '14px' }} />{displayText}</a>
                   </li>
                 ) : null;
               })}
             </ul>
 
             {siteLink && (
-              <span className="text-[#E25A27] hover:text-[#FA652E] underline">
-                <a href={siteLink} target="_blank" rel="noopener noreferrer"><span><FontAwesomeIcon icon={faExternalLink} style={{ marginRight: '8px', width: '14px' }} />Ver demo</span></a>
-              </span>
+                <span>
+                  <a className="text-[#E25A27] underline hover:text-[#172432]" href={siteLink} target="_blank" rel="noopener noreferrer"><FontAwesomeIcon icon={faExternalLink} style={{ marginRight: '8px', width: '14px' }} />Ver demo</a>
+                </span>
             )}
           </div>
         </div>
