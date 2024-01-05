@@ -36,7 +36,7 @@ export default function Navbar() {
               <h2 className="text-xl">alanegd</h2>
             </Link>
 
-            <button className="md:hidden text-xl" onClick={toggleMenu}>
+            <button className="md:hidden text-xl" onClick={toggleMenu} aria-label="Open/Close navbar">
               <FontAwesomeIcon icon={showMenu ? faClose : faBars} />
             </button>
           </div>
