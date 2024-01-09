@@ -29,7 +29,7 @@ export default function Navbar() {
 
   return (
     <div className={`${styles.navbar} ${scrolling ? styles.shadow : ''}`}>
-      <nav className="flex flex-wrap items-center justify-between align-middle p-4">
+      <nav className="flex flex-wrap items-center justify-between align-middle py-2 px-4">
         <div className="max-w-screen-lg container mx-auto py-2 px-4 md:px-0 flex flex-wrap items-center justify-between text-[#D9D4C1]">
           <div className="w-full relative flex justify-between md:w-auto md:px-0 md:static md:block md:justify-start">
             <Link className="font-semibold flex whitespace-nowrap items-center" to="/">

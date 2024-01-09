@@ -23,7 +23,7 @@ export default function AboutSection() {
             </p>
             <br />
             <p>
-              Mi formación académica se ha centrado en el diseño y desarrollo de proyectos de alta calidad, bien sea desde simples landing pages hasta aplicaciones web con RESTful APIs. Mi objetivo es crear software eficiente y escalable que brinde las mejores experiencias de usuario.
+              Mi formación académica se ha centrado en el diseño y desarrollo de proyectos de alta calidad, desde simples landing pages hasta aplicaciones web con RESTful APIs. Mi objetivo es crear software eficiente y escalable que brinde las mejores experiencias de usuario.
               Actualmente, estoy especializándome en gestión de proyectos ágiles.
             </p>
             <br />
