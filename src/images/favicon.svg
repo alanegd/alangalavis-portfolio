@@ -1,4 +1,7 @@
 <?xml version="1.0" encoding="utf-8"?>
-<svg viewBox="0 0 558 358" xmlns="http://www.w3.org/2000/svg">
-  <text style="fill: rgb(37, 104, 221); font-family: Inter; font-size: 299.7px; font-weight: 700; white-space: pre;" x="2.071" y="280.806">egd</text>
+<svg width="1102" height="423" viewBox="0 0 1102 423" fill="none" xmlns="http://www.w3.org/2000/svg">
+<path d="M0 0H368V423H0V0Z" fill="#EBB073"/>
+<path d="M368 0H734V423H368V0Z" fill="#E25A27"/>
+<path d="M734 0H1102V423H734V0Z" fill="#2A534F"/>
 </svg>
+
