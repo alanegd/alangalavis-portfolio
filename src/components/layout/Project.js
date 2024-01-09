@@ -13,7 +13,7 @@ export default function Project({ project }) {
         <p className="text-sm">{stack.join(', ')}</p>
       </div>
 
-      <div className="flex flex-col lg:flex-row md:gap-10">
+      <div className="flex flex-col lg:flex-row md:gap-16">
         <div className="lg:w-[76%] mb-9">
           <Image filename={image} alt={title} classes="w-full drop-shadow-md" />
         </div>

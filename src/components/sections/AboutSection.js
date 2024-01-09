@@ -7,7 +7,7 @@ import { faDownload } from '@fortawesome/free-solid-svg-icons';
 export default function AboutSection() {
   return (
     <section id="about" className={`${styles.about} my-10 p-10 md:px-20 items-center md:flex justify-between`}>
-      <div className="max-w-[893px] mx-auto">
+      <div className="max-w-screen-lg mx-auto">
         <div className="flex flex-col md:flex-row justify-center mb-12 text-center items-center">
           <hr className="w-full h-0.5 bg-[#E25A27] border-0 mb-2 hidden md:block" />
           <h2 className="md:mx-10 mb-2 text-4xl md:text-4xl text-[#172432] uppercase whitespace-nowrap">
