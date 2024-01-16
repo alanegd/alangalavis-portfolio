@@ -24,7 +24,12 @@ export default function Project({ project }) {
           <p><span className="font-bold">Solución:</span> {solution}</p>
           <br />
 
-          <hr className="w-full h-0.5 bg-black border-0 mb-6" />
+          <div className="flex">
+            <hr className="w-1/3 h-[3px] bg-[#EBB073] border-0 mb-6" />
+            <hr className="w-1/3 h-[3px] bg-[#E25A27] border-0 mb-6" />
+            <hr className="w-1/3 h-[3px] bg-[#2A534F] border-0 mb-6" />
+          </div>
+
 
           <div className="flex flex-col-reverse md:flex-row gap-3 justify-between">
             <ul>
@@ -32,7 +37,7 @@ export default function Project({ project }) {
                 const [displayText, repoLink] = repo.split('|');
                 return repoLink ? (
                   <li className="mb-3" key={index}>
-                    <a className="text-[#E25A27] hover:text-[#172432] underline" href={repoLink} target="_blank" rel="noopener noreferrer"><FontAwesomeIcon icon={faExternalLink} style={{ marginRight: '8px', width: '14px' }} />{displayText}</a>
+                    <a className="text-[#172432] underline hover:text-[#E25A27]" href={repoLink} target="_blank" rel="noopener noreferrer"><FontAwesomeIcon icon={faExternalLink} style={{ marginRight: '8px', width: '14px' }} />{displayText}</a>
                   </li>
                 ) : null;
               })}
@@ -40,7 +45,7 @@ export default function Project({ project }) {
 
             {siteLink && (
                 <span>
-                  <a className="text-[#E25A27] underline hover:text-[#172432]" href={siteLink} target="_blank" rel="noopener noreferrer"><FontAwesomeIcon icon={faExternalLink} style={{ marginRight: '8px', width: '14px' }} />Ver demo</a>
+                  <a className="text-[#172432] underline hover:text-[#E25A27]" href={siteLink} target="_blank" rel="noopener noreferrer"><FontAwesomeIcon icon={faExternalLink} style={{ marginRight: '8px', width: '14px' }} />Ver demo</a>
                 </span>
             )}
           </div>

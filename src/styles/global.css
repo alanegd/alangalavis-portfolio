@@ -11,12 +11,12 @@
     --font-secondary: 'DM Serif Text';
     --font-tertiary: 'Strait';
     --primary-color: #2F3C55;
-    --background-color: #D9D3B1;
+    --background-color: #D6C8B1;
     scroll-behavior: smooth;
 }
 
 body {
-    background: var(--background-color);
+    background: url(../images/texture.png), var(--background-color) repeat;
 }
 
 * {
