@@ -1,6 +1,6 @@
 .hero {
     background: url(../images/texture.png), #4F7D73 repeat;
-    margin-top: 76px;
+    margin-top: 60px;
 
     @media (max-width: 767px) {
         background: #22312E;
