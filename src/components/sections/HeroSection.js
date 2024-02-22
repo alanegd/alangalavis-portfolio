@@ -15,7 +15,7 @@ export default function HeroSection() {
   }, []);
 
   return (
-    <section className="md:mt-14 items-center md:flex justify-center overflow-x-clip bg-[#22312E] md:pb-32">
+    <section className="md:mt-14 items-center md:flex justify-center overflow-x-clip bg-[#22312E] md:pb-[136px]">
       <div className={`${styles.hero} md:px-20 py-10 text-center text-[#F3EED8] md:text-left items-center relative`}>
         <div data-aos="fade-up" data-aos-duration="1000">
           <div className="md:flex items-center relative">

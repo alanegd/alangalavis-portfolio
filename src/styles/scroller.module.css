@@ -1,0 +1,71 @@
+.scroller {
+  overflow: hidden;
+  width: 100%;
+}
+
+.scroller .inner {
+  position: relative;
+  width: 100%;
+  overflow: hidden;
+}
+
+.scroller .wrapper {
+  display: flex;
+  justify-content: end;
+}
+
+.scroller section {
+  display: flex;
+  justify-content: end;
+  animation: swipe var(--speed) linear infinite;
+}
+
+.scroller:hover section {
+  animation-play-state: paused;
+}
+
+.scroller img {
+  min-width: 250px;
+  height: 8rem;
+  object-fit: fill;
+  margin-right: 4rem;
+  margin-bottom: 0.5rem;
+}
+
+.scroller h2 {
+  max-width: 200px;
+  overflow: hidden;
+  text-overflow: ellipsis;
+  white-space: nowrap;
+}
+
+.scroller img:last-of-type {
+  padding-left: 0;
+}
+
+@keyframes swipe {
+  0% {
+    transform: translateX(0);
+  }
+
+  100% {
+    transform: translate(-100%);
+  }
+}
+
+
+
+
+/*
+.scroller {
+    width: 100%;
+    overflow-x: hidden;
+    white-space: nowrap;
+  }
+  
+  .scroller img {
+    display: inline-block;
+    height: 300px;
+    margin-right: 50px;
+  }
+  */

@@ -5,7 +5,7 @@ import projectsData from '../../projects/projects.json';
 
 
 export default function ProjectsSection() {
-  const projects = projectsData;
+  const projects = projectsData.filter(project => project.featured === true);
 
   return (
     <section

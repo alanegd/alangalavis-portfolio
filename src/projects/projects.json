@@ -9,7 +9,8 @@
       "repositories": [
         "Repositorio front-end|https://github.com/Integradis-OpenSource/Greenhouse_FrontEnd",
         "Repositorio back-end|https://github.com/Integradis-OpenSource/greenhouse-platform"
-      ]
+      ],
+      "featured": true
     },
     {
       "title": "CreditCar",
@@ -21,7 +22,8 @@
       "repositories": [
         "Repositorio front-end|https://github.com/upc-pre-202302-si642-si82-creditcar/CreditCar",
         "Repositorio back-end|https://github.com/upc-pre-202302-si642-si82-creditcar/CreditCar.API"
-      ]
+      ],
+      "featured": true
     },
     {
       "title": "Movie Recommendation System",
@@ -32,7 +34,28 @@
       "siteLink": "https://alangalavis.pythonanywhere.com/",
       "repositories": [
         "Repositorio|https://github.com/alanegd/movie-recommendation-system"
-      ]
+      ],
+      "featured": true
+    },
+    {
+      "title": "SmartStock",
+      "problem": "",
+      "solution": "",
+      "stack": ["Gatsby", "Tailwind"],
+      "image": "/smartstock.png",
+      "siteLink": "https://smartstockapp.netlify.app/",
+      "repositories": [],
+      "featured": false
+    },
+    {
+      "title": "Who's that Pokémon?",
+      "problem": "",
+      "solution": "",
+      "stack": ["Vue", "Tailwind"],
+      "image": "/whos-that-pokemon.png",
+      "siteLink": "",
+      "repositories": [],
+      "featured": false
     }
   ]
   
