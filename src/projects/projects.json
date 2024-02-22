@@ -16,7 +16,7 @@
       "title": "CreditCar",
       "problem": "Las concesionarias de autos en Perú necesitan de una plataforma que permita generar con facilidad y transparencia un plan de pagos de crédito vehicular para los potenciales clientes.",
       "solution": "Aplicación web de una sola página que incluye un simulador de compra y venta de vehículos, desde el cual las concesionarias podrán generar un plan de pagos por el método francés, vencido y ordinario.",
-      "stack": ["Vue", "JavaScript", "MySQL", ".NET", "Tailwind"],
+      "stack": ["JavaScript", "MySQL", ".NET", "Tailwind", "Vue"],
       "image": "/creditcar.png",
       "siteLink": "",
       "repositories": [
@@ -44,17 +44,21 @@
       "stack": ["Gatsby", "Tailwind"],
       "image": "/smartstock.png",
       "siteLink": "https://smartstockapp.netlify.app/",
-      "repositories": [],
+      "repositories": [
+        "Repositorio|https://github.com/alanegd/gatsby-landing-page"
+      ],
       "featured": false
     },
     {
       "title": "Who's that Pokémon?",
       "problem": "",
       "solution": "",
-      "stack": ["Vue", "Tailwind"],
+      "stack": ["PokeApi", "Tailwind", "Vue"],
       "image": "/whos-that-pokemon.png",
-      "siteLink": "",
-      "repositories": [],
+      "siteLink": "https://github.com/alanegd/whos-that-pokemon",
+      "repositories": [
+        "Repositorio|https://github.com/alanegd/whos-that-pokemon"
+      ],
       "featured": false
     }
   ]
