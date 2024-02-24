@@ -3,7 +3,7 @@ import * as styles from '../../styles/scroller.module.css';
 import projectsData from '../../projects/projects.json';
 import Image from '../../infrastructure/graphql/Image.js';
 
-export default function InfiniteHorizontalScroller({ speed = 6500 }) {
+export default function InfiniteHorizontalScroller({ speed = 7500 }) {
   const projects = projectsData.filter(project => project.featured === false);;
 
   return (
