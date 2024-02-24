@@ -1,5 +1,4 @@
 .scroller {
-  overflow: hidden;
   width: 100%;
 }
 
@@ -25,11 +24,18 @@
 }
 
 .scroller img {
-  min-width: 250px;
-  height: 8rem;
+  min-width: 300px;
+  height: 9rem;
   object-fit: fill;
   margin-right: 4rem;
   margin-bottom: 0.5rem;
+  border-radius: 0.4rem;
+  box-shadow: 0 4px 4px 0 rgba(0, 0, 0, 0.1);
+  transition: transform 0.3s ease;
+}
+
+.scroller img:hover {
+  transform: scale(1.05);
 }
 
 .scroller h2 {
@@ -52,20 +58,3 @@
     transform: translate(-100%);
   }
 }
-
-
-
-
-/*
-.scroller {
-    width: 100%;
-    overflow-x: hidden;
-    white-space: nowrap;
-  }
-  
-  .scroller img {
-    display: inline-block;
-    height: 300px;
-    margin-right: 50px;
-  }
-  */

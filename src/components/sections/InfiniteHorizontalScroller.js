@@ -8,32 +8,40 @@ export default function InfiniteHorizontalScroller({ speed = 6500 }) {
 
   return (
     <div className="max-w-screen-lg my-10 mx-auto">
-      <div className={`${styles.scroller} inner`}>
+      <div className={`${styles.scroller} inner overflow-x-hidden py-3`}>
         <div className="wrapper flex">
           <section style={{ "--speed": `${speed}ms` }}>
             {projects.map((project, index) => (
-            <a href={project.siteLink} key={index} className="image" target="_blank" rel="noopener noreferrer">
+            <a href={project.siteLink} key={index} target="_blank" rel="noopener noreferrer">
               <Image filename={project.image} alt={project.title} />
               <h2 className="text-xl">{project.title}</h2>
-              <p className="mt-1 text-sm">{project.stack.join(', ')}</p>
+              <p className="text-sm mt-1">
+                {project.stack.join(', ')}
+              </p>
             </a>
             ))}
           </section>
+
           <section style={{ "--speed": `${speed}ms` }}>
             {projects.map((project, index) => (
-            <a href={project.siteLink} key={index} className="image" target="_blank" rel="noopener noreferrer">
+            <a href={project.siteLink} key={index} target="_blank" rel="noopener noreferrer">
               <Image filename={project.image} alt={project.title} />
               <h2 className="text-xl">{project.title}</h2>
-              <p className="mt-1 text-sm">{project.stack.join(', ')}</p>
+              <p className="text-sm mt-1">
+                {project.stack.join(', ')}
+              </p>
             </a>
             ))}
           </section>
+
           <section style={{ "--speed": `${speed}ms` }}>
             {projects.map((project, index) => (
-            <a href={project.siteLink} key={index} className="image" target="_blank" rel="noopener noreferrer">
+            <a href={project.siteLink} key={index} target="_blank" rel="noopener noreferrer">
               <Image filename={project.image} alt={project.title} />
               <h2 className="text-xl">{project.title}</h2>
-              <p className="mt-1 text-sm">{project.stack.join(', ')}</p>
+              <p className="text-sm mt-1">
+                {project.stack.join(', ')}
+              </p>
             </a>
             ))}
           </section>

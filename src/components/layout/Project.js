@@ -10,7 +10,9 @@ export default function Project({ project }) {
     <div className="flex flex-col text-[#172432]">
       <div className="w-full mb-9">
         <h3 className="mb-3 font-semibold text-4xl md:text-3xl text-[#172432]">{title}</h3>
-        <p className="text-sm">{stack.join(', ')}</p>
+        <p className="text-sm">
+          {stack.join(', ')}
+        </p>
       </div>
 
       <div className="flex flex-col lg:flex-row md:gap-16">
