@@ -1,7 +1,7 @@
 [
   {
     "title": "Zisca",
-    "problem": "Zisca es un emprendimiento peruano dedicado a la venta de ropa para mujeres que busca ampliar el alcance de sus productos, y ofrecer una experiencia de compra en línea atractiva para sus clientes.",
+    "problem": "Zisca es un emprendimiento peruano dedicado a la venta de ropa para mujeres que necesita una herramienta para ampliar el alcance de sus productos, y ofrecer una experiencia de compra en línea atractiva para sus clientes.",
     "solution": "Aplicación web de e-commerce diseñada para mejorar la experiencia de los clientes de Zisca. La aplicación permite a los usuarios navegar por una amplia variedad de productos, agregarlos a un carrito de compras y realizar pagos de manera segura.",
     "stack": [
       "Angular",
@@ -13,8 +13,8 @@
       "TypeScript"
     ],
     "image": "/zisca.png",
-    "siteLink": "https://zisca.pe",
-    "repositories": ["", ""],
+    "siteLink": "",
+    "repositories": ["Ver sitio", "https://zisca.pe"],
     "featured": true
   },
   {
@@ -93,7 +93,7 @@
     "solution": "Aplicación web de una sola página que incluye un simulador de compra y venta de vehículos, desde el cual las concesionarias podrán generar un plan de pagos por el método francés, vencido y ordinario.",
     "stack": ["JavaScript", "MySQL", ".NET", "Tailwind", "Vue"],
     "image": "/creditcar-small.png",
-    "siteLink": "",
+    "siteLink": "https://github.com/upc-pre-202302-si642-si82-creditcar/CreditCar",
     "repositories": [
       "Repositorio front-end|https://github.com/upc-pre-202302-si642-si82-creditcar/CreditCar",
       "Repositorio back-end|https://github.com/upc-pre-202302-si642-si82-creditcar/CreditCar.API"

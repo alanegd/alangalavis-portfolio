@@ -45,7 +45,7 @@ export default function AboutSection() {
 
           <div className="md:w-1/4 flex flex-col items-center">
             <div className="pt-2 w-full bg-[#22312E] rounded-t-md">
-              <img src={aboutImage} alt="alanegd" />
+              <img src={aboutImage} alt="alanegd" loading="lazy" />
             </div>
             <a
               className="py-3 w-full text-white text-center bg-[#E25A27] hover:bg-[#FA652E] cursor-pointer drop-shadow-md rounded-b-md"
