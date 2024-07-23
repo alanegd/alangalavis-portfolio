@@ -14,7 +14,7 @@
     ],
     "image": "/zisca.png",
     "siteLink": "",
-    "repositories": ["Ver sitio", "https://zisca.pe"],
+    "repositories": ["Ver sitio|https://zisca.pe"],
     "featured": true
   },
   {
