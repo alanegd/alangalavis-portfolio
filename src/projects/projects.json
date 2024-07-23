@@ -1,65 +1,103 @@
 [
-    {
-      "title": "Greenhouse",
-      "problem": "Las fábricas de champiñones en Perú registran el estado y progreso de sus cultivos en hojas de papel. Este método es arcaico, vulnerable y difícil de mantener.",
-      "solution": "Aplicación web de una sola página que impulsa la digitalización en fábricas de champiñones. Con Greenhouse, los trabajadores pueden registrar en tiempo real las actividades realizadas, y los administradores pueden supervisar remotamente el estado de los cultivos.",
-      "stack": ["Angular", "Bootstrap", "Java", "JavaScript", "MySQL", "Spring", "Tailwind", "TypeScript"],
-      "image": "/greenhouse.png",
-      "siteLink": "https://integradis-opensource.github.io/LandingPage/",
-      "repositories": [
-        "Repositorio front-end|https://github.com/Integradis-OpenSource/Greenhouse_FrontEnd",
-        "Repositorio back-end|https://github.com/Integradis-OpenSource/greenhouse-platform"
-      ],
-      "featured": true
-    },
-    {
-      "title": "CreditCar",
-      "problem": "Las concesionarias de autos en Perú necesitan de una plataforma que permita generar con facilidad y transparencia un plan de pagos de crédito vehicular para los potenciales clientes.",
-      "solution": "Aplicación web de una sola página que incluye un simulador de compra y venta de vehículos, desde el cual las concesionarias podrán generar un plan de pagos por el método francés, vencido y ordinario.",
-      "stack": ["JavaScript", "MySQL", ".NET", "Tailwind", "Vue"],
-      "image": "/creditcar.png",
-      "siteLink": "",
-      "repositories": [
-        "Repositorio front-end|https://github.com/upc-pre-202302-si642-si82-creditcar/CreditCar",
-        "Repositorio back-end|https://github.com/upc-pre-202302-si642-si82-creditcar/CreditCar.API"
-      ],
-      "featured": true
-    },
-    {
-      "title": "Movie Recommendation System",
-      "problem": "Las plataformas de streaming carecen de precisión y transparencia en sus sistemas de recomendación debido al uso predominante de filtros colaborativos. Esto resulta en recomendaciones que no se alinean con los gustos individuales de los usuarios.",
-      "solution": "Sistema de recomendación de películas basado en el algoritmo de búsqueda por profundidad limitada en grafos no dirigidos. Los usuarios pueden personalizar sus preferencias mediante la selección de parámetros específicos, lo cual mejora la precisión de las recomendaciones y brinda una experiencia más satisfactoria.",
-      "stack": ["Flask", "Pandas", "Python"],
-      "image": "/movie-recommendation-system.png",
-      "siteLink": "https://alangalavis.pythonanywhere.com/",
-      "repositories": [
-        "Repositorio|https://github.com/alanegd/movie-recommendation-system"
-      ],
-      "featured": true
-    },
-    {
-      "title": "SmartStock",
-      "problem": "",
-      "solution": "",
-      "stack": ["Gatsby", "Tailwind"],
-      "image": "/smartstock.png",
-      "siteLink": "https://smartstockapp.netlify.app/",
-      "repositories": [
-        "Repositorio|https://github.com/alanegd/gatsby-landing-page"
-      ],
-      "featured": false
-    },
-    {
-      "title": "Who's that Pokémon?",
-      "problem": "",
-      "solution": "",
-      "stack": ["PokeApi", "Tailwind", "Vue"],
-      "image": "/whos-that-pokemon.png",
-      "siteLink": "https://github.com/alanegd/whos-that-pokemon",
-      "repositories": [
-        "Repositorio|https://github.com/alanegd/whos-that-pokemon"
-      ],
-      "featured": false
-    }
-  ]
-  
+  {
+    "title": "Zisca",
+    "problem": "Zisca es un emprendimiento peruano dedicado a la venta de ropa para mujeres que busca ampliar el alcance de sus productos, y ofrecer una experiencia de compra en línea atractiva para sus clientes.",
+    "solution": "Aplicación web de e-commerce diseñada para mejorar la experiencia de los clientes de Zisca. La aplicación permite a los usuarios navegar por una amplia variedad de productos, agregarlos a un carrito de compras y realizar pagos de manera segura.",
+    "stack": [
+      "Angular",
+      "Java",
+      "JavaScript",
+      "MySQL",
+      "Spring",
+      "Tailwind",
+      "TypeScript"
+    ],
+    "image": "/zisca.png",
+    "siteLink": "https://zisca.pe",
+    "repositories": ["", ""],
+    "featured": true
+  },
+  {
+    "title": "Greenhouse",
+    "problem": "Las fábricas de champiñones en Perú registran el estado y progreso de sus cultivos en hojas de papel. Este método es arcaico, vulnerable y difícil de mantener.",
+    "solution": "Aplicación web full stack que impulsa la digitalización en fábricas de champiñones. Con Greenhouse, los trabajadores pueden registrar en tiempo real las actividades realizadas, y los administradores pueden supervisar remotamente el estado de los cultivos.",
+    "stack": [
+      "Angular",
+      "Bootstrap",
+      "Java",
+      "JavaScript",
+      "MySQL",
+      "Spring",
+      "Tailwind",
+      "TypeScript"
+    ],
+    "image": "/greenhouse.png",
+    "siteLink": "https://integradis-opensource.github.io/LandingPage/",
+    "repositories": [
+      "Repositorio front-end|https://github.com/Integradis-OpenSource/Greenhouse_FrontEnd",
+      "Repositorio back-end|https://github.com/Integradis-OpenSource/greenhouse-platform"
+    ],
+    "featured": true
+  },
+  {
+    "title": "Movie Recommendation System",
+    "problem": "Las plataformas de streaming carecen de precisión y transparencia en sus sistemas de recomendación debido al uso predominante de filtros colaborativos. Esto resulta en recomendaciones que no se alinean con los gustos individuales de los usuarios.",
+    "solution": "Sistema de recomendación de películas basado en el algoritmo de búsqueda por profundidad limitada en grafos no dirigidos. Los usuarios pueden personalizar sus preferencias mediante la selección de parámetros específicos, lo cual mejora la precisión de las recomendaciones y brinda una experiencia más satisfactoria.",
+    "stack": ["Flask", "Pandas", "Python"],
+    "image": "/movie-recommendation-system.png",
+    "siteLink": "https://alangalavis.pythonanywhere.com/",
+    "repositories": [
+      "Repositorio|https://github.com/alanegd/movie-recommendation-system"
+    ],
+    "featured": true
+  },
+  {
+    "title": "SmartStock",
+    "problem": "",
+    "solution": "",
+    "stack": ["Gatsby", "Tailwind"],
+    "image": "/smartstock.png",
+    "siteLink": "https://smartstockapp.netlify.app/",
+    "repositories": [
+      "Repositorio|https://github.com/alanegd/gatsby-landing-page"
+    ],
+    "featured": false
+  },
+  {
+    "title": "Who's that Pokémon?",
+    "problem": "",
+    "solution": "",
+    "stack": ["PokeApi", "Tailwind", "Vue"],
+    "image": "/whos-that-pokemon.png",
+    "siteLink": "https://github.com/alanegd/whos-that-pokemon",
+    "repositories": [
+      "Repositorio|https://github.com/alanegd/whos-that-pokemon"
+    ],
+    "featured": false
+  },
+  {
+    "title": "Carga Sin Estrés",
+    "problem": "Las empresas de mudanza en Perú enfrentan la ausencia de un medio digital seguro y eficiente para captar clientes. Además, los usuarios que necesitan contratar estos servicios tienen dificultades para encontrar empresas formalizadas y que operen en sus zonas de origen y destino.",
+    "solution": "Aplicación web full stack que busca simplificar y mejorar el proceso de contratación de servicios de mudanza y la captación de clientes. Esta plataforma permite una comunicación fluida entre el cliente y la empresa de mudanza, garantizando una experiencia segura y confiable para ambos.",
+    "stack": ["Angular", "Spring", "Tailwind", "TypeScript"],
+    "image": "/carga-sin-estres.png",
+    "siteLink": "https://cse-experimentos.web.app/#/login",
+    "repositories": [
+      "Repositorio|https://github.com/experimentos-carga-sin-estres"
+    ],
+    "featured": true
+  },
+  {
+    "title": "CreditCar",
+    "problem": "Las concesionarias de autos en Perú necesitan de una plataforma que permita generar con facilidad y transparencia un plan de pagos de crédito vehicular para los potenciales clientes.",
+    "solution": "Aplicación web de una sola página que incluye un simulador de compra y venta de vehículos, desde el cual las concesionarias podrán generar un plan de pagos por el método francés, vencido y ordinario.",
+    "stack": ["JavaScript", "MySQL", ".NET", "Tailwind", "Vue"],
+    "image": "/creditcar-small.png",
+    "siteLink": "",
+    "repositories": [
+      "Repositorio front-end|https://github.com/upc-pre-202302-si642-si82-creditcar/CreditCar",
+      "Repositorio back-end|https://github.com/upc-pre-202302-si642-si82-creditcar/CreditCar.API"
+    ],
+    "featured": false
+  }
+]

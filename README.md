@@ -17,24 +17,29 @@ This is my personal web portfolio, where I'll showcase the skills I've acquired 
 
 ## Getting started
 
-1. Open the command prompt and clone the repository:
+1. Install the Gatsby CLI globally with:
+```
+npm install -g gatsby-cli
+```
+
+2. Open the command prompt and clone the repository:
 ```
 git clone https://github.com/alanegd/alangalavis-portfolio
 ```
 
-2. Navigate to the project directory.
+3. Navigate to the project directory.
 
-3. Run the following command to install the necessary dependencies listed in the package.json file:
+4. Run the following command to install the necessary dependencies listed in the package.json file:
   ``` 
   npm install 
   ```
 
-4. Run the Gatsby Development Server with:
+5. Run the Gatsby Development Server with:
 ```
 gatsby develop
 ```
 
-5. Open your web browser and go to `http://localhost:8000/ ` to view the Gatsby site.
+6. Open your web browser and go to `http://localhost:8000/ ` to view the Gatsby site.
 
 ## Project structure
 
